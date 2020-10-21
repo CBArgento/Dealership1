@@ -1,0 +1,239 @@
+﻿body {
+    height: 100%;
+}
+
+#ContentTitle {
+    text-align: center;
+    font-size: 48px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+
+#button {
+    text-align: center;
+}
+
+#FirstCard {
+    /*background-image: src=("https://github.com/CBArgento/WIP/blob/master/Assets/logo.JPG?raw=true");*/
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border: white;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-title {
+    font-size: 78px;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+
+
+.cardtext {
+    text-align: center;
+    color: black;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-size: 30px;
+}
+
+/*#img1 {
+     position: relative;
+     height: 500px;
+     width: 100%;
+     position: fixed;
+ }*/
+
+/* .hero-image{
+    position: relative;
+    height: 120px;
+    overflow: hidden;
+    background: url(..Assets/Developers.jpg) no-repeat center;
+    background-size: cover;
+ }*/
+
+/*.container1{
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     overflow: hidden
+     text-align: center;
+ }*/
+
+#icons {
+    padding-right: 1em;
+}
+
+#loguitos {
+    padding-right: 1em;
+    font-size: 30px;
+    color: lightblue;
+}
+
+#iconsstyle {
+    text-align: center;
+    font-size: 60px;
+    color: #aaf683;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.spacer {
+    padding: 25px;
+}
+
+#Name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.footer {
+    position:;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #161e2c;
+    color: white;
+    text-align: center;
+}
+
+
+#MoreServices1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#MoreServices2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#FooterLogo {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#FooterLogo2 {
+    text-align: left;
+}
+
+#iconsfooter {
+    padding-right: 2em;
+    text-align: center;
+    font-size: 30px;
+}
+
+#iconsfooter1 {
+    padding-left: 1em;
+    padding-right: 2em;
+    text-align: center;
+    font-size: 30px;
+}
+
+#More {
+    align-items: center;
+    color: lightblue;
+    font-size: 55px;
+    padding-right: 1em;
+}
+
+#Serviceslogos {
+    text-align: center;
+}
+
+.TitleOne {
+    color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 55px;
+}
+
+#titlesstyle {
+    padding-top: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+
+#carlogo {
+    text-align: center;
+    width: 55px;
+    height: 65px;
+}
+
+/* paralax */
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1600191763736-2c18c79244b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card-titles {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/*Card-Car descriptions*/
+#left-text {
+    text-align: left;
+}
+
+#Miles {
+    color: gray;
+}
+
+#Shipping {
+    color: gray;
+}
+
+#Price {
+    color: lightblue;
+    font-size: 30px;
+}
+
+
+
+.paralax-text {
+    padding: 15%;
+    color: white;
+    text-align: center;
+    font-display: block;
+}
+
+/*Hover effect*/
+.card-hover {
+    box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
+    -webkit-transform: translate(0,-10px);
+    transform: translate(0,-10px);
+}
