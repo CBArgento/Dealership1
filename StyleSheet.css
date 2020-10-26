@@ -1,4 +1,4 @@
-﻿body {
+body {
     height: 100%;
 }
 
@@ -49,29 +49,6 @@ section {
     font-size: 30px;
 }
 
-/*#img1 {
-     position: relative;
-     height: 500px;
-     width: 100%;
-     position: fixed;
- }*/
-
-/* .hero-image{
-    position: relative;
-    height: 120px;
-    overflow: hidden;
-    background: url(..Assets/Developers.jpg) no-repeat center;
-    background-size: cover;
- }*/
-
-/*.container1{
-     position: absolute;
-     top: 20%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     overflow: hidden
-     text-align: center;
- }*/
 
 #icons {
     padding-right: 1em;
@@ -253,6 +230,7 @@ section {
     width: 100%;
 }
 
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {
@@ -354,3 +332,59 @@ section {
         width: 100%;
     }
 }
+
+
+/*FIND US BOTTON*/
+.Find-Button {
+    text-align: center;
+}
+
+.FindUs {
+    text-align: center;
+    color: Highlight;
+    font-size: 85px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+
+}
+
+/*Bottom Paralax*/
+.paralax-findus {
+    padding: 30px;
+}
+
+
+
+
+
+/*TESTING LIVE CHAT*/
+/* Live chat button styling */
+#live-chat-wrapper {
+    z-index: 99999999 !important;
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    width: 165px !important;
+    height: 70px !important;
+}
+
+#live-chat-button {
+    background-image: url('https://i.imgur.com/BfVEXYC.png');
+    background-size: 165px 70px;
+    display: block;
+    width: 165px;
+    height: 70px;
+    transition: background-image ease-in-out 0.3s;
+}
+
+    #live-chat-button:hover {
+        background-image: url('https://imgur.com/Oxo4zet.png');
+    }
+
+/* Preload live chat button images to avoid blinking on first hover 
+*/
+body:after {
+    display: none;
+    content: url('https://i.imgur.com/BfVEXYC.png') url('https://imgur.com/Oxo4zet.png');
+}
+
