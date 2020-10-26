@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="StyleSheet.css">
     <!--Bootstrap Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/208d599c16.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Monoton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/208d599c16.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
 </head>
 <body>
 
@@ -33,19 +34,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Hours">Hours</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://app.cyclcrm.com/credit_app/index.html?d=FEB1AA7B" target="_blank">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://customer-dev.eautopayment.com/?merchantAccountId=0101-0315-4633" target="_blank">Make a Payment </a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <!--Hero-Image-->
-
+    <!-- Paralax-Image -->
 
     <div class="parallax">
         <div class="paralax-text">
             <h4>WELCOME TO</h4>
             <p id="Paralax-Title">DEALERSHIP ONE</p>
             <br />
-            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Schedule a Visit</a>
+            <a href="tel:801-259-5614" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Call Us</a>
+            <a href="https://app.cyclcrm.com/chat_center/index.html?d=FEB1AA7B" class="btn btn-primary btn-lg" role="button" aria-pressed="true" target="_blank">Chat with Us</a>
         </div>
     </div>
 
@@ -62,6 +69,12 @@
 
     <div class="spacer"></div>
 
+    <!-- Live chat button -->
+    <div id="live-chat-wrapper">
+        <a id="live-chat-button" href="https://app.cyclcrm.com/chat_center/index.html?d=FEB1AA7B" target="_blank"></a>
+    </div>
+
+    <!--Car brand Icons under Paralax-->
 
     <div class="container">
         <div class="row">
@@ -97,38 +110,38 @@
 
     <div class="spacer"></div>
 
-    <!--Our Best Deals-->
+    <!-- Our Best Deals -->
 
     <div id="ContentTitle" class="container">
-        <h1 id="Deals">Our Best Deals</h1>
+        <h1 id="Deals">Featured Vehicles</h1>
     </div>
     <div id="ContentTitle" class="container">
         <h3>Find your favorite car</h3>
     </div>
     <div class="spacer"></div>
 
-    <!--Content 2-->
-    <!--Best Car dals section-->
+
+    <!-- Best Car dals section -->
     <div class="container">
         <div class="row">
             <div class="col">
-                    <div class="card-hover h-100" style="width: 18rem;">
-                        <img src="https://images.unsplash.com/photo-1551830820-330a71b99659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        <h5 id="left-text" class="card-titles">Ford 150</h5>
-                                        <p id="left-text">2019</p>
-                                    </div>
-                                    <div class="col"><h3 id="Price">$28,590</h3></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><p id="Miles">21,625 miles</p></div>
-                                    <div class="col"><p id="Shipping">Shipping: $599</p></div>
+                <div class="card-hover h-100" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1551830820-330a71b99659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 id="left-text" class="card-titles">Ford 150</h5>
+                                    <p id="left-text">2019</p>
                                 </div>
+                                <div class="col"><h3 id="Price">$28,590</h3></div>
+                                <div class="w-100"></div>
+                                <div class="col"><p id="Miles">21,625 miles</p></div>
+                                <div class="col"><p id="Shipping">Shipping: $599</p></div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
             <div class="col">
                 <div class="card-hover h-100" style="width: 18rem;">
@@ -233,14 +246,19 @@
         </div>
     </div>
 
+
+    <!-- Our Inventory Button -->
     <div class="spacer"></div>
     <div id="button" class="container">
-        <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Our Inventory</a>
+        <a href="" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Our Inventory</a>
     </div>
+
 
     <div class="spacer"></div>
 
-    <!--Content 3-->
+
+
+    <!-- What's great about Dealership One? -->
     <div id="ContentTitle" class="container">
         <h1>What's great about Dealership One?</h1>
     </div>
@@ -248,7 +266,7 @@
     <div class="spacer"></div>
 
 
-    <!--Content 4 Cards-->
+    <!-- What's great about Dealership One?-----CARDS -->
     <div class="container">
         <div class="card-deck">
             <div class="card">
@@ -343,18 +361,18 @@
             </div>
         </div>
 
-        <!--Button-->
+        <!-- Button -->
         <div id="button" class="container">
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
-                Set Up an appointment
-            </button>
+
+            <a href="https://app.cyclcrm.com/chat_center/index.html?d=FEB1AA7B" class="btn btn-primary" role="button" aria-pressed="true" target="_blank">Schedule a Visit</a>
+
         </div>
     </section>
 
     <div class="spacer"></div>
 
-    <!--Content 5-->
 
+    <!-- Hours of Operations by Department -->
 
     <div class="spacer"></div>
     <div class="spacer"></div>
@@ -363,7 +381,6 @@
         <h1 id="Hours">Hours of Operations by Department</h1>
     </div>
 
-    <!--Business Logos-->
     <div id="Serviceslogos" class="container">
         <p>We are here to help you find the car you need.</p>
         <div class="spacer"></div>
@@ -444,12 +461,31 @@
     </div>
     <div class="spacer"></div>
     <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
 
-    <div class="spacer"></div>
+    <!-- FIND US BUTTON -->
+    <!-- <div class="container">
+         <div class="FindUs">
+             <i class="fas fa-map-marked-alt"></i>
+         </div>
+         <div class="Find-Button">
+             <a href="https://www.google.com/maps/dir/37.09024,-95.712891/dealership+near+me/@36.9022724,-95.9201036,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x87b7122a24a40dbd:0x30c0f73dadc365cc!2m2!1d-95.9360137!2d36.7221291" class="btn btn-primary btn-lg btn-success" role="button" aria-pressed="true" target="_blank">Find Us</a>
+         </div>
+     </div>-->
+    <!--Bottom Paralax with Find Us Button-->
 
-    <!--Footer-->
+    <div class="parallax">
+        <div class="paralax-findus">
+            <div class="FindUs">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="Find-Button">
+                <a href="https://www.google.com/maps/dir//dealership+near+me/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87b7122ad79ccbe3:0xd2da087ab34d26d3?sa=X&ved=2ahUKEwjbjsOkmcnsAhUyrFkKHfR8CG8Q9RcwAHoECAAQBA" class="btn btn-primary btn-lg btn-success" role="button" aria-pressed="true" target="_blank">Find Us</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -460,7 +496,7 @@
                 <div class="col-sm">
                     <h4>Find Us</h4>
                     <br>
-                    <i id="iconsfooter1" class="fab fa-facebook"></i>
+                    <i id="iconsfooter" class="fab fa-facebook"></i>
                     <i id="iconsfooter" class="fab fa-twitter"></i>
                     <i id="iconsfooter" class="fab fa-linkedin-in"></i>
                 </div>
@@ -473,11 +509,10 @@
         </div>
     </div>
 
+    <!-- Bootsrap JavaScript -->
 
-
-    <!--Bootsrap JavaScript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="Script.js" crossorigin=""></script>
+
 </body>
 </html>
